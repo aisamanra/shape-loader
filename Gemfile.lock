@@ -2,6 +2,10 @@ GEM
   remote: https://rubygems.org/
   specs:
     gosu (0.15.1)
+    sorbet (0.5.5420)
+      sorbet-static (= 0.5.5420)
+    sorbet-runtime (0.5.5420)
+    sorbet-static (0.5.5420-universal-darwin-14)
     vector2d (2.1.0)
 
 PLATFORMS
@@ -9,6 +13,8 @@ PLATFORMS
 
 DEPENDENCIES
   gosu
+  sorbet
+  sorbet-runtime
   vector2d
 
 BUNDLED WITH
